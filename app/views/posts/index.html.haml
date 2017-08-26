@@ -1,0 +1,8 @@
+%h1 Hello
+
+%ul
+  - @posts.each do |p|
+    %li
+      = p.title
+    %li 
+      = p.content
